@@ -58,14 +58,11 @@
 }
 
 @media (min-width: 600px) {
-  .card--image {
-    top: 7%;
-    width: 100px;
+  .card {
+    flex: 0 0 calc(50% - 1rem * 2);
+    margin: 1rem;
   }
 }
 
 @media (min-width: 901px) {
-  .card--image {
-    width: 125px;
-  }
 }

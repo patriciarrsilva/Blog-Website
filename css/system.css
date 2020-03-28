@@ -4,6 +4,7 @@
   --secondary: #606c76;
   --tertiary: #d1d1d1;
   --border: #96a0aa;
+  --link: #110eca;
 }
 
 /* Typography */
@@ -53,6 +54,14 @@
   margin: 0;
 }
 
+a {
+  color: var(--link);
+}
+
+a:hover {
+  text-decoration: none;
+}
+
 ul {
   list-style: none;
   padding: 0;
@@ -84,6 +93,8 @@ ul {
 }
 
 .main {
+  display: flex;
+  flex-direction: column;
   overflow-y: scroll;
   padding: 5%;
 }
@@ -117,6 +128,12 @@ ul {
 
   .input {
     max-width: unset;
+  }
+
+  .main {
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    padding: 1% 5%;
   }
 }
 
