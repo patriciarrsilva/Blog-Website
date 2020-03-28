@@ -1,0 +1,130 @@
+:root {
+  /* Colors */
+  --primary: #9b4dca;
+  --secondary: #606c76;
+  --tertiary: #d1d1d1;
+  --border: #96a0aa;
+}
+
+/* Typography */
+.h1 {
+  font-size: 3.2rem;
+  font-weight: 300;
+  margin: 0;
+}
+
+.h2 {
+  font-size: 2.4rem;
+  font-weight: bold;
+  line-height: 4.8rem;
+  margin: 0;
+}
+
+.h3 {
+  font-size: 1.8rem;
+  font-weight: 300;
+  line-height: 4rem;
+}
+
+.quote {
+  font-size: 1.8rem;
+  font-weight: 300;
+  font-style: italic;
+  line-height: 4rem;
+}
+
+.text {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 2.8rem;
+}
+
+.text-sm {
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 2.4rem;
+  margin: 0;
+}
+
+.text-xs {
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 2rem;
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.body {
+  display: grid;
+  grid-template-rows: 5rem 1fr 2rem;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  height: 100vh;
+  line-height: 1.75rem;
+}
+
+.header {
+  background-color: var(--tertiary);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.input {
+  border: 1px solid var(--border);
+  border-radius: 0.25rem;
+  max-width: 7rem;
+  padding: 0.25rem 1.5rem 0.25rem 0.5rem;
+}
+
+.main {
+  overflow-y: scroll;
+  padding: 5%;
+}
+
+.footer {
+  background-color: var(--tertiary);
+  display: flex;
+  justify-content: space-around;
+}
+
+@media (min-width: 600px) {
+  .h1 {
+    font-size: 4rem;
+  }
+
+  .h2 {
+    font-size: 3.2rem;
+  }
+
+  .h3 {
+    font-size: 2.4rem;
+  }
+
+  .quote {
+    font-size: 2.4rem;
+  }
+}
+
+@media (min-width: 901px) {
+  .h1 {
+    font-size: 4.8rem;
+  }
+
+  .h2 {
+    font-size: 4rem;
+  }
+
+  .h3 {
+    font-size: 3.2rem;
+  }
+
+  .quote {
+    font-size: 3.2rem;
+  }
+}

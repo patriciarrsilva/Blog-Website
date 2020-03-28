@@ -1,0 +1,64 @@
+.h1--header {
+  flex: 0 0 50%;
+}
+
+.input--header {
+  flex: 0 0 50%;
+  position: relative;
+}
+
+.search-icon {
+  color: var(--secondary);
+  position: absolute;
+  right: 1rem;
+  top: 0.5rem;
+}
+
+.card {
+  border: 1px solid var(--border);
+  border-radius: 0.25rem;
+  margin-bottom: 1rem;
+  padding: 2%;
+}
+
+.card--summary {
+  padding: 1rem 0;
+}
+
+.card--link {
+  display: block;
+  text-align: right;
+}
+
+.category {
+  display: flex;
+  justify-content: space-between;
+}
+
+.category--type {
+  color: var(--primary);
+}
+
+.category--image {
+  border-radius: 50%;
+  width: 29px;
+}
+
+.card--date {
+  color: var(--secondary);
+}
+
+.footer--copyright {
+  flex: 1;
+  padding: 0 0.5rem;
+}
+
+.footer--list {
+  flex: 1;
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer--list-item {
+  padding: 0 0.5rem;
+}
