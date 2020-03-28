@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Blog Title</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#000000" />
+    <link rel="icon" href="../img/favicon.png" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,600,700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="../css/style.css" rel="stylesheet" />
+  </head>
+  <body class="body">
+    <header class="header">
+      <h1 class="h1"><a href="../index.html">Blog</a></h1>
+      <div class="input--header-container">
+        <input
+          type="text"
+          placeholder="Search"
+          class="text-xs input input--header"
+        />
+        <span class="material-icons search-icon">search</span>
+      </div>
+    </header>
+
+    <main class="main main--subscribe">
+      <h2 class="h2">Subscribe form</h2>
+      <form class="form">
+        <div class="form--group">
+          <label for="name" class="text-xs input--label">
+            <b>Name</b> <span class="required">(required)</span>
+          </label>
+          <input
+            id="name"
+            name="name"
+            type="text"
+            placeholder="John Doe"
+            class="input input--form"
+            required
+          />
+        </div>
+        <div class="form--group">
+          <label for="email" class="text-xs input--label">
+            <b>E-mail</b> <span class="required">(required)</span>
+          </label>
+          <input
+            id="email"
+            name="email"
+            type="email"
+            placeholder="johndoe@email.com"
+            class="input input--form"
+            required
+          />
+        </div>
+
+        <div class="form--actions">
+          <a href="../index.html">
+            Cancel
+          </a>
+          <button type="submit" class="button text-xs">
+            Subscribe
+          </button>
+        </div>
+      </form>
+    </main>
+
+    <footer class="footer text-xs">
+      <small class="footer--small">Copyright 2020</small>
+      <ul class="footer--list">
+        <li class="footer--list-item">
+          <a href="#" target="_blank" rel="noopener">Follow</a>
+        </li>
+      </ul>
+    </footer>
+  </body>
+</html>

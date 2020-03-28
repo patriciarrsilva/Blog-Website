@@ -1,3 +1,7 @@
-@import 'normalize.css';
-@import 'system.css';
-@import 'blog.css';
+@import "normalize.css";
+@import "system.css";
+@import "header.css";
+@import "home.css";
+@import "post.css";
+@import "subscribe.css";
+@import "footer.css";

@@ -1,0 +1,29 @@
+.header {
+  background-color: var(--primary);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 5%;
+}
+
+.input--header-container {
+  position: relative;
+}
+
+.input--header {
+  max-width: 7rem;
+  padding: 0.25rem 1.75rem 0.25rem 0.5rem;
+}
+
+.search-icon {
+  color: var(--primary);
+  position: absolute;
+  right: 0.25rem;
+  top: 0.5rem;
+}
+
+@media (min-width: 600px) {
+  .input--header {
+    max-width: unset;
+  }
+}

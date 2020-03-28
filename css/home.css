@@ -1,12 +1,7 @@
-.input--header {
-  position: relative;
-}
-
-.search-icon {
-  color: var(--secondary);
-  position: absolute;
-  right: 0.25rem;
-  top: 0.5rem;
+.main--home {
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
 }
 
 .card {
@@ -18,7 +13,7 @@
 }
 
 .card--category {
-  color: var(--primary);
+  color: var(--secondary);
 }
 
 .card--image {
@@ -30,7 +25,7 @@
 }
 
 .card--date {
-  color: var(--secondary);
+  color: var(--tertiary);
 }
 
 .card--summary {
@@ -42,27 +37,15 @@
   text-align: right;
 }
 
-.footer--copyright {
-  flex: 1;
-  padding: 0 0.5rem;
-}
-
-.footer--list {
-  flex: 1;
-  display: flex;
-  justify-content: space-around;
-}
-
-.footer--list-item {
-  padding: 0 0.5rem;
-}
-
 @media (min-width: 600px) {
+  .main--home {
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    padding: 1% 5%;
+  }
+
   .card {
     flex: 0 0 calc(50% - 1rem * 2);
     margin: 1rem;
   }
-}
-
-@media (min-width: 901px) {
 }
