@@ -6,7 +6,7 @@ A simple blog website including an example blog post.
 
 To see it:
 
-- click [here]()
+- click [here](https://patriciarrsilva.github.io/Blog-Website/)
 
 or
 
