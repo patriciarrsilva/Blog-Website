@@ -3,9 +3,8 @@
   --primary: #d1d1d1;
   --secondary: #9b4dca;
   --tertiary: #606c76;
-  --button: #02b3e4;
   --border: #96a0aa;
-  --link: #110eca;
+  --blue: #110eca;
   --white: #fff;
 }
 
@@ -81,7 +80,7 @@
 }
 
 a {
-  color: var(--link);
+  color: var(--blue);
 }
 
 a:hover {
