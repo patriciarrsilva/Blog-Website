@@ -10,8 +10,9 @@
   position: relative;
 }
 
-.input--header-label {
-  visibility: hidden;
+.input--header-group {
+  display: flex;
+  flex-direction: column;
 }
 
 .input--header {
@@ -23,7 +24,7 @@
   color: var(--tertiary);
   position: absolute;
   right: 0.25rem;
-  top: 0.5rem;
+  top: 2.5rem;
 }
 
 @media (min-width: 600px) {
