@@ -72,14 +72,15 @@ ul {
   background-color: var(--tertiary);
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
+  padding: 0 5%;
 }
 
 .input {
   border: 1px solid var(--border);
   border-radius: 0.25rem;
   max-width: 7rem;
-  padding: 0.25rem 1.5rem 0.25rem 0.5rem;
+  padding: 0.25rem 1.75rem 0.25rem 0.5rem;
 }
 
 .main {
@@ -109,6 +110,14 @@ ul {
   .quote {
     font-size: 2.4rem;
   }
+
+  .body {
+    grid-template-rows: 6rem 1fr 2rem;
+  }
+
+  .input {
+    max-width: unset;
+  }
 }
 
 @media (min-width: 901px) {
@@ -126,5 +135,9 @@ ul {
 
   .quote {
     font-size: 3.2rem;
+  }
+
+  .body {
+    grid-template-rows: 7rem 1fr 2rem;
   }
 }

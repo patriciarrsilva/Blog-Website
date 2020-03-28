@@ -1,16 +1,11 @@
-.h1--header {
-  flex: 0 0 50%;
-}
-
 .input--header {
-  flex: 0 0 50%;
   position: relative;
 }
 
 .search-icon {
   color: var(--secondary);
   position: absolute;
-  right: 1rem;
+  right: 0.25rem;
   top: 0.5rem;
 }
 
@@ -19,6 +14,23 @@
   border-radius: 0.25rem;
   margin-bottom: 1rem;
   padding: 2%;
+  position: relative;
+}
+
+.card--category {
+  color: var(--primary);
+}
+
+.card--image {
+  border-radius: 50%;
+  position: absolute;
+  right: 2%;
+  top: 2%;
+  width: 50px;
+}
+
+.card--date {
+  color: var(--secondary);
 }
 
 .card--summary {
@@ -28,24 +40,6 @@
 .card--link {
   display: block;
   text-align: right;
-}
-
-.category {
-  display: flex;
-  justify-content: space-between;
-}
-
-.category--type {
-  color: var(--primary);
-}
-
-.category--image {
-  border-radius: 50%;
-  width: 29px;
-}
-
-.card--date {
-  color: var(--secondary);
 }
 
 .footer--copyright {
@@ -61,4 +55,17 @@
 
 .footer--list-item {
   padding: 0 0.5rem;
+}
+
+@media (min-width: 600px) {
+  .card--image {
+    top: 7%;
+    width: 100px;
+  }
+}
+
+@media (min-width: 901px) {
+  .card--image {
+    width: 125px;
+  }
 }
