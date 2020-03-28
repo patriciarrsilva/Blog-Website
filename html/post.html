@@ -20,7 +20,12 @@
     <header class="header">
       <h1 class="h1"><a href="../index.html">Blog</a></h1>
       <div class="input--header-container">
-        <input type="text" placeholder="Search" class="text-xs input input--header" />
+        <label for="search" class="input--header-label">Search</label>
+        <input
+          id="search"
+          placeholder="Search"
+          class="text-xs input input--header"
+        />
         <span class="material-icons search-icon">search</span>
       </div>
     </header>
@@ -65,7 +70,7 @@
             recognized by various cat registries.
           </blockquote>
           <figure>
-            <img src="../img/cat_l.jpg" class="post--image" />
+            <img src="../img/cat_l.jpg" class="post--image" alt="cat" />
             <figcaption class="text-xs post--caption">
               A domestic cat
             </figcaption>
@@ -81,7 +86,7 @@
       </main>
 
       <aside class="aside" id="aside">
-        <img src="../img/author.jpg" class="author--image" />
+        <img src="../img/author.jpg" class="author--image" alt="author photo" />
         <h5 class="h5">About Patrícia</h5>
         <p class="text-xs">Front-end Web Developer, Company</p>
         <p class="text-sm">Bio</p>

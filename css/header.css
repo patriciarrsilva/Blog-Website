@@ -10,13 +10,17 @@
   position: relative;
 }
 
+.input--header-label {
+  visibility: hidden;
+}
+
 .input--header {
   max-width: 7rem;
   padding: 0.25rem 1.75rem 0.25rem 0.5rem;
 }
 
 .search-icon {
-  color: var(--primary);
+  color: var(--tertiary);
   position: absolute;
   right: 0.25rem;
   top: 0.5rem;
